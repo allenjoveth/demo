@@ -1,3 +1,4 @@
+```py
 # Import Libraries
 import torch
 import torch.nn as nn
@@ -114,3 +115,4 @@ for epoch in range(100):
             f"Epoch [{epoch+1}/100], "
             f"Loss: {loss.item():.4f}"
         )
+```
